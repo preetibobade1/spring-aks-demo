@@ -9,7 +9,7 @@ steps:
   displayName: Login to ACR
   inputs:
     command: login
-    containerRegistry: springacrconnection
+    containerRegistry: acrRegistryServiceConnection1
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
