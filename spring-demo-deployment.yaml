@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: test-server
-          image: springdemoacrpb.azurecr.io/spring-demo:latest
+          image: springdemoacrpb.azurecr.io/default/spring-demo:latest
           imagePullPolicy: "Always"
           ports:
             - name: http-port
